@@ -2,8 +2,12 @@
 
 A clean and simple to-do list application built with vanilla HTML, CSS, and JavaScript. This project demonstrates fundamental JavaScript concepts like DOM manipulation, event handling, and using `localStorage` for data persistence.
 
-![Screenshot of To-Do List App](link-to-your-screenshot.png)
-_**(Note: Take a screenshot of your project, add it to your folder, and replace 'link-to-your-screenshot.png' with the actual file name.)**_
+[Screenshot of To-Do List App]
+<img width="1879" height="876" alt="Screenshot 2025-08-03 233552" src="https://github.com/user-attachments/assets/554c60d0-7eae-4f92-ac61-649eff921719" />
+<img width="1853" height="882" alt="Screenshot 2025-08-03 233701" src="https://github.com/user-attachments/assets/2d03cfae-7f64-4d90-a756-7e59bb009f8f" />
+
+
+
 
 ---
 
@@ -31,11 +35,11 @@ To run this project locally:
 
 1.  Clone the repository:
     ```bash
-    
+    https://himanshumoral.github.io/vanilla-js-todo-app/
     ```
 2.  Navigate to the project directory:
     ```bash
-    cd your-repo-name
+    cd vanilla-js-todo-app
     ```
 3.  Open the `index.html` file in your favorite web browser.
 
