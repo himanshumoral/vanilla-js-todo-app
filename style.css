@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 2px;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(65deg,rgba(13, 183, 217, 0.788), rgba(192, 4, 206, 0.897));
+}
+
+.todo-app{
+    background-color: white;
+    width: 70vw;
+    margin: 100px auto 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    min-height: 150px;
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.heading img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.input input{
+    border: none;
+    background-color: rgb(199, 195, 195);
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.input button{
+    border: none;
+    background-color: rgb(245, 6, 6);
+    border-radius: 20px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.new{
+    position: relative;
+
+}
+
+.neweliment{
+    margin-top: 5px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.newbtn{
+      border: none;
+    background-color: rgb(240, 2, 2);
+    border-radius: 20px;
+    position: absolute;
+    top: 11%;
+    right: 0%;
+    padding: 12px;
+    color: white;
+    cursor: pointer;
+}
+
+.parents{
+    display: flex;
+    position: relative;
+}
+
+.Combtn{
+    border: none;
+    background-color: rgb(225, 92, 9);
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    padding: 11px;
+    border-radius: 20px;
+    top: 14%;
+    left: 1px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
